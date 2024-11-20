@@ -1,0 +1,8 @@
+/* Styles pour la section accueil */
+#accueil p {
+  font-size: 18px;
+  color: #444;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+ 
