@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site avec Modèle 3D</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <button onclick="showSection('accueil')">Accueil</button>
+      <button onclick="showSection('palette')">Palette</button>
+      <button onclick="showSection('modele3d')">Modèle 3D</button>
+    </nav>
+  </header>
+ 
+  <main>
+    <!-- Section Accueil -->
+    <section id="accueil" class="active">
+      <h1>Bienvenue</h1>
+      <p>
+        Bonjour, je vous présente mon site que j'ai créé avec mon ami.  
+        Ici, vous pouvez explorer un modèle 3D interactif et découvrir une palette de design inspirante.  
+        Merci de votre visite et bonne exploration !
+      </p>
+    </section>
+ 
+    <!-- Section Palette -->
+    <section id="palette">
+      <h1>Palette de couleurs</h1>
+      <div class="palette">
+        <div class="color" style="background-color: #FF5733;" title="Rouge"></div>
+        <div class="color" style="background-color: #33FF57;" title="Vert"></div>
+        <div class="color" style="background-color: #3357FF;" title="Bleu"></div>
+      </div>
+    </section>
+ 
+    <!-- Section Modèle 3D -->
+    <section id="modele3d">
+      <h1>Modèle 3D</h1>
+      <div class="model-container">
+        <iframe src="https://sketchfab.com/models/7w7VG4qQe/embed" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
